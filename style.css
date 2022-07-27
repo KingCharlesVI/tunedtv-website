@@ -30,3 +30,9 @@
     background-color: #ffffff;
     color: rgb(0, 0, 0);
   }
+/* Text */
+.text-block {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.281);
+  color: white;
+}
