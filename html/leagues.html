@@ -10,7 +10,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/leagues.css">
     <title>TunedTV</title>
-  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
 </head>
 <style>
     h2 {text-align: center}
@@ -22,28 +22,29 @@
 <style>
     h1 {text-align: center;}
     p {text-align: center;}
-    div {text-align: center;}
     </style>
 <div class="row">
+  <a href="lvf1.html">
   <div class="column" style="background-color:#83ccc5;">
-    <h2><a href="lvf1.html">LigavirtualF1</h2></a>
-    <p>A Spanish-based league with F1 championships from many years, and more!</p>
+    <center><h2>LigavirtualF1</h2>
+    <p>A Spanish-based league with F1 championships from many years, and more!</p></center>
   </div>
+  </a>
   <div class="column" style="background-color:#aaa;">
-    <h2>Example League 2</h2>
-    <p>League description</p>
+    <center><h2>Example League 2</h2>
+    <p>League description</p></center>
   </div>
 </div>
 
 <div class="row">
   <div class="column" style="background-color:#aaa;">
-    <h2>Example League 3</h2>
-    <p>League Description</p>
-  </div>
+    <center><h2>Example League 3</h2>
+      <p>League description</p></center>
+    </div>
   <div class="column" style="background-color:#aaa;">
-    <h2>Example League 4</h2>
-    <p>League Description</p>
-  </div>
+    <center><h2>Example League 4</h2>
+    <p>League description</p></center>
+    </div>
 </div>
 <script>
 // Get the elements with class="column"
@@ -56,5 +57,36 @@ function gridView() {
   }
 }
 </script>
+<br>
+<h3>Contact us to submit your league to the Closed Beta testing</h3>
+<br>
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name/Nickname</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your Email..">
+
+    <label for="region">Region</label>
+    <select id="region" name="region">
+      <option value="selectone">--Select One--</option>
+      <option value="namerica">North America</option>
+      <option value="samerica">South America</option>
+      <option value="europe">Europe</option>
+      <option value="africa">Africa</option>
+      <option value="asia">Asia</option>
+      <option value="oceania">Oceania</option>
+
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
 </body>
 </html>
