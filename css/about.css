@@ -35,3 +35,9 @@
         max-width: 1200px;
         margin: 40px auto;
       } 
+/* Text Area */
+      .textarea {
+        margin: 20px;
+        padding: 20px;
+        background: rgb(255, 255, 255);
+      }
