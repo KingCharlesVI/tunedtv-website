@@ -1,6 +1,14 @@
 /* Site-wide font */
 *{
-  font-family:Montserrat;
+  font-family: Montserrat;
+}
+
+/* Logo formatting */
+.logo {
+  vertical-align: top;
+  width: 100px;
+  height: 50px;
+  float: left;
 }
 
 /* Add a black background color to the top navigation */
