@@ -43,3 +43,11 @@
         max-width: 1200px;
         margin: 40px auto;
       } 
+
+/* Footer */
+footer {
+  text-align: left;
+  padding: 3px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}

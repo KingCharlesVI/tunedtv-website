@@ -89,3 +89,12 @@
     margin-bottom: 20px;
   }
 }
+
+/* Footer */
+footer {
+  font-size: 14px;
+  text-align: left;
+  padding: 3px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
