@@ -68,7 +68,7 @@ button {
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 100%;
+  width: 50%;
   opacity: 0.9;
 }
 
@@ -114,7 +114,7 @@ button:hover {
   </div>
     <section class="signup-form">
     <h2>Sign Up</h2>
-    <form action="signup.inc.php" method="post">
+    <form action="../included/signup.inc.php" method="post">
         <input type="text" name="name" placeholder="Username">
         <br>
         <input type="text" name="email" placeholder="Email">
