@@ -47,8 +47,8 @@
         }
     /* Full-width input fields */
   input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
+  width: 50%;
+  padding: 20px;
   margin: 5px 0 22px 0;
   display: inline-block;
   border: none;
@@ -104,12 +104,13 @@ button:hover {
 <body>
 <div class="topnav">
     <img class="logo" src="../images/condensed-tunedtv.jpg">
-    <a class="active" href="#home">Home</a>
-    <a href="html/leagues.html">Leagues</a>
-    <a href="html/premium.html">Premium</a>
-    <a href="html/about.html">About</a>
-    <a href="exclusive/exclusive.html">Exclusive Content</a>
-    <a href="php/signup.php">Sign Up</a>
+    <a href="../index.html">Home</a>
+    <a href="../html/leagues.html">Leagues</a>
+    <a href="../html/premium.html">Premium</a>
+    <a href="../html/about.html">About</a>
+    <a href="../exclusive/exclusive.html">Exclusive Content</a>
+    <a class="active" href="#signup">Sign Up</a>
+    <a href="login.php">Login</a>
   </div>
     <section class="signup-form">
     <h2>Sign Up</h2>
