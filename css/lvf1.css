@@ -3,6 +3,14 @@
     font-family:Montserrat;
   }
   
+  /* Logo formatting */
+.logo {
+  vertical-align: top;
+  width: 100px;
+  height: 50px;
+  float: left;
+}
+
   /* Add a black background color to the top navigation */
   .topnav {
       background-color: rgb(0, 0, 0);
@@ -35,3 +43,11 @@
         max-width: 1200px;
         margin: 40px auto;
       } 
+
+/* Footer */
+footer {
+  text-align: left;
+  padding: 3px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}

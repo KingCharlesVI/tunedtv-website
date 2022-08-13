@@ -1,6 +1,14 @@
 /* Site-wide font */
 *{
-  font-family:Montserrat;
+  font-family: Montserrat;
+}
+
+/* Logo formatting */
+.logo {
+  vertical-align: top;
+  width: 100px;
+  height: 50px;
+  float: left;
 }
 
 /* Add a black background color to the top navigation */
@@ -30,3 +38,63 @@
     background-color: #ffffff;
     color: rgb(0, 0, 0);
   }
+/* Text */
+.text-block {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.281);
+  color: white;
+}
+/* Text Area */
+.textarea {
+  margin: 20px;
+  padding: 20px;
+  background: rgb(255, 255, 255);
+}
+
+/* Upcoming races boxes */
+* {
+  box-sizing: border-box;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Footer */
+footer {
+  font-size: 14px;
+  text-align: left;
+  padding: 3px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}

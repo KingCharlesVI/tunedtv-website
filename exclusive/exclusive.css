@@ -44,7 +44,7 @@
         padding: 20px;
         background: rgb(255, 255, 255);
       }
-
+      
 /* Upcoming races boxes */
 * {
   box-sizing: border-box;
@@ -84,8 +84,7 @@
   }
 }
 
-
-      /* Footer */
+/* Footer */
 footer {
   text-align: left;
   padding: 3px;
