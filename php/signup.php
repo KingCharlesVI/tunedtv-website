@@ -80,6 +80,12 @@ button:hover {
 .cancelbtn {
   padding: 14px 20px;
   background-color: #f44336;
+  width: 50%;
+}
+
+/* Extra styles for the submit button */
+.submitbtn {
+  width: 50%;
 }
 
 /* Float cancel and signup buttons and add an equal width */
