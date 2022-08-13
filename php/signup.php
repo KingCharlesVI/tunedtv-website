@@ -1,8 +1,21 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Sign Up</title>
+<div class="topnav">
+    <img class="logo" src="images/condensed-tunedtv.jpg">
+    <a class="active" href="#home">Home</a>
+    <a href="html/leagues.html">Leagues</a>
+    <a href="html/premium.html">Premium</a>
+    <a href="html/about.html">About</a>
+    <a href="exclusive/exclusive.html">Exclusive Content</a>
+    <a href="php/signup.php">Sign Up</a>
+  </div>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/style.css">
+    <title>TunedTV</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
+
 <body>
     <section class="signup-form">
     <h2>Sign Up</h2>
