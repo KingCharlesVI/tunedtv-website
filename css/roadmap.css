@@ -1,0 +1,183 @@
+/* Site-wide font */
+*{
+    font-family:Montserrat;
+  }
+  
+/* Logo formatting */
+.logo {
+  vertical-align: top;
+  width: 100px;
+  height: 50px;
+  float: left;
+}
+
+  /* Add a black background color to the top navigation */
+  .topnav {
+      background-color: rgb(0, 0, 0);
+      overflow: hidden;
+    }
+    
+    /* Style the links inside the navigation bar */
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    /* Change the color of links on hover */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    /* Add a color to the active/current link */
+    .topnav a.active {
+      background-color: #ffffff;
+      color: rgb(0, 0, 0);
+    }
+/* Text Area */
+      .textarea {
+        margin: 20px;
+        padding: 20px;
+        background: rgb(255, 255, 255);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+      
+      /* The actual timeline (the vertical ruler) */
+      .timeline {
+        position: relative;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      
+      /* The actual timeline (the vertical ruler) */
+      .timeline::after {
+        content: '';
+        position: absolute;
+        width: 6px;
+        background-color: black;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        margin-left: -3px;
+      }
+      
+      /* Container around content */
+      .container {
+        padding: 10px 40px;
+        position: relative;
+        background-color: inherit;
+        width: 50%;
+      }
+      
+      /* The circles on the timeline */
+      .container::after {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        right: -17px;
+        background-color: white;
+        border: 4px solid #ffd701;
+        top: 15px;
+        border-radius: 50%;
+        z-index: 1;
+      }
+      
+      /* Place the container to the left */
+      .left {
+        left: 0;
+      }
+      
+      /* Place the container to the right */
+      .right {
+        left: 50%;
+      }
+      
+      /* Add arrows to the left container (pointing right) */
+      .left::before {
+        content: " ";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 1;
+        right: 30px;
+        border: medium solid black;
+        border-width: 10px 0 10px 10px;
+        border-color: transparent transparent transparent black;
+      }
+      
+      /* Add arrows to the right container (pointing left) */
+      .right::before {
+        content: " ";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 1;
+        left: 30px;
+        border: medium solid black;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent black transparent transparent;
+      }
+      
+      /* Fix the circle for containers on the right side */
+      .right::after {
+        left: -16px;
+      }
+      
+      /* The actual content */
+      .content {
+        padding: 20px 30px;
+        background-color: white;
+        position: relative;
+        border-radius: 6px;
+      }
+      
+      /* Media queries - Responsive timeline on screens less than 600px wide */
+      @media screen and (max-width: 600px) {
+      /* Place the timelime to the left */
+        .timeline::after {
+          left: 31px;
+        }
+      
+      /* Full-width containers */
+        .container {
+          width: 100%;
+          padding-left: 70px;
+          padding-right: 25px;
+        }
+      
+      /* Make sure that all arrows are pointing leftwards */
+        .container::before {
+          left: 60px;
+          border: medium solid white;
+          border-width: 10px 10px 10px 0;
+          border-color: transparent white transparent transparent;
+        }
+      
+      /* Make sure all circles are at the same spot */
+        .left::after, .right::after {
+          left: 15px;
+        }
+      
+      /* Make all right containers behave like the left ones */
+        .right {
+          left: 0%;
+        }
+      }
+
+/* Footer */
+footer {
+  text-align: left;
+  padding: 3px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
