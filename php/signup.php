@@ -1,15 +1,5 @@
 <!DOCTYPE html>
 <html>
-
-<div class="topnav">
-    <img class="logo" src="../images/condensed-tunedtv.jpg">
-    <a class="active" href="#home">Home</a>
-    <a href="html/leagues.html">Leagues</a>
-    <a href="html/premium.html">Premium</a>
-    <a href="html/about.html">About</a>
-    <a href="exclusive/exclusive.html">Exclusive Content</a>
-    <a href="php/signup.php">Sign Up</a>
-  </div>
 <head>
   <meta charset="UTF-8">
     <title>TunedTV</title>
@@ -55,6 +45,60 @@
           background-color: #ffffff;
           color: rgb(0, 0, 0);
         }
+    /* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .submitbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 </style>
 </head>
 <body>
@@ -78,7 +122,8 @@
         <br>
         <input type="password" name="pwdrepeat" placeholder="Confirm Password">
         <br>
-        <button type="submit" name="submit">Sign Up</button>
+        <button type="button" class="cancelbtn">Cancel</button>
+        <button type="submit" class="submitbtn">Sign Up</button>
     </form>
 </body>
 </section>
