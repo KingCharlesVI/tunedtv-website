@@ -10,7 +10,7 @@
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
   </head>
 <style>
-  input[type=text], input[type=password] {
+  input[type=text] {
   width: 50%;
   padding: 20px;
   margin: 5px 0 22px 0;
@@ -19,7 +19,7 @@
   background: #f1f1f1;
 }
 
-input[type=text]:focus, input[type=password]:focus {
+input[type=text]:focus {
   background-color: #ddd;
   outline: none;
 }
@@ -73,29 +73,23 @@ button:hover {
 </head>
 <body>
     <section class="signup-form">
-    <h2>Sign Up</h2>
-    <form action="../included/signup.inc.php" method="post">
-        <input type="text" name="name" placeholder="Username">
-        <br>
+    <h2>Reset your password</h2>
+    <p>An e-mail will be sent to you with instructions on how to reset your password</p>
+    <form action="../included/reset-request.inc.php" method="post">
         <input type="text" name="email" placeholder="Email">
         <br>
-        <input type="password" name="pwd" placeholder="Password">
-        <br>
-        <input type="password" name="pwdrepeat" placeholder="Confirm Password">
-        <br>
         <button type="button" class="cancelbtn">Cancel</button>
-        <button type="submit" class="submitbtn">Sign Up</button>
+        <button type="submit" class="submitbtn" name="reset-request-submit">Request password change email</button>
     </form>
   </div>
   <?php
-  if (isset($_Get["newpwd"])) {
-    if ($_GET["newpwd"] == "passwordupdated") {
-      echo '<p class-"signupsuccess">Your password has been reset</p>'
+    if (isset($_GET["reset"])) {
+        if ($_GET["reset"] == "success") {
+            echo '<p class="signupsuccess">Check your e-mail</p>';
+        }
     }
-  }
-  ?>
   <a href="reset=password.php">Forgot your password?</a>
-</section>
+
 <?php
   if (isset($_GET["error"])) {
     if ($_GET["error"] == "emptyInput") {
