@@ -6,7 +6,7 @@
   <body>
   <div class="topnav">
     <img class="logo" src="/images/condensed-tunedtv.jpg">
-    <a class="active" href="#home">Home</a>
+    <a href="/index.php">Home</a>
     <a href="/html/leagues.php">Leagues</a>
     <a href="/html/premium.php">Premium</a>
     <a href="/html/about.php">About</a>
