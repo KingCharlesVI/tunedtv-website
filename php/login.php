@@ -1,6 +1,14 @@
 <?php
-    include_once '../header.php'
+  include_once '../header.php'
 ?>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style.css">
+    <title>TunedTV</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  </head>
 <style>
     /* Full-width input fields */
   input[type=text], input[type=password] {
@@ -67,12 +75,12 @@ button:hover {
 <body>
     <?php
         if (isset($_SESSION["useruid"])) {
-            echo "<a href="profile.php">Profile</a>";
-            echo "<a href="logout.php">Logout</a>";
+            echo "<a href='profile.php'>Profile</a>";
+            echo "<a href='logout.php'>Logout</a>";
         }
         else {
-           echo "<a href="signup.php">Sign Up</a>";
-           echo "<a href="login.php">Login</a>";
+           echo "<a href='signup.php'>Sign Up</a>";
+           echo "<a href='login.php'>Login</a>";
         }
     ?>
   </div>

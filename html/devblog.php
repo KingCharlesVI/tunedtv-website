@@ -1,22 +1,17 @@
 <?php
   session_start():
 ?>
+<?php
+  include_once '../header.php'
+?>
 <!DOCTYPE html>
 <html>
-    <div class="topnav">
-      <img class="logo" src="../images/condensed-tunedtv.jpg">  
-      <a href="../index.php">Home</a>
-        <a href="leagues.php">Leagues</a>
-        <a href="premium.php">Premium</a>
-        <a href="about.php">About</a>
-        <a href="../exclusive/exclusive.php">Exclusive Content</a>
-      </div>
 <head>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/devblog.css">
     <title>TunedTV</title>
-  <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
-</head>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  </head>
 <style>
     h2 {text-align: center}
   </style>
