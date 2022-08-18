@@ -1,6 +1,17 @@
 <?php
   session_start();
 ?>
+<?php
+  include_once '../header.php'
+?>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/lvf1.css">
+    <title>TunedTV</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  </head>
 <!DOCTYPE html>
 <html>
     <div class="topnav">

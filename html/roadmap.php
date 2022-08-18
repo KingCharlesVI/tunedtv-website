@@ -1,22 +1,17 @@
 <?php
   session_start();
 ?>
+<?php
+  include_once '../header.php'
+?>
 <!DOCTYPE html>
 <html>
-    <div class="topnav">
-      <img class="logo" src="../images/condensed-tunedtv.jpg">  
-      <a href="../index.php">Home</a>
-      <a href="leagues.php">Leagues</a>
-      <a class="active" href="#premium">Premium</a>
-      <a href="about.php">About</a>
-      <a href="../exclusive/exclusive.php">Exclusive Content</a>
-    </div>
 <head>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/roadmap.css">
     <title>TunedTV</title>
-  <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
-</head>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  </head>
 <body>
     <center><h1>Roadmap</h1></center>
     <center><p>This roadmap shows the planned major updates. Minor updates are likely to occur within these.</p></center>
