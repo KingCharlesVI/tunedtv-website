@@ -1,51 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-    <title>TunedTV</title>
-  <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
-  <style>
-    /* Site-wide font */
-    *{
-        font-family: Montserrat;
-          }
-      
-          /* Logo formatting */
-          .logo {
-          vertical-align: top;
-          width: 100px;
-          height: 50px;
-          float: left;
-          }
-      
-          /* Add a black background color to the top navigation */
-          .topnav {
-          background-color: rgb(0, 0, 0);
-          overflow: hidden;
-          }
-        
-        /* Style the links inside the navigation bar */
-        .topnav a {
-          float: left;
-          color: #f2f2f2;
-          text-align: center;
-          padding: 14px 16px;
-          text-decoration: none;
-          font-size: 17px;
-        }
-        
-        /* Change the color of links on hover */
-        .topnav a:hover {
-          background-color: #ddd;
-          color: black;
-        }
-        
-        /* Add a color to the active/current link */
-        .topnav a.active {
-          background-color: #ffffff;
-          color: rgb(0, 0, 0);
-        }
-    /* Full-width input fields */
+<?php
+  include_once '../header.php'
+?>
+<style>
   input[type=text], input[type=password] {
   width: 50%;
   padding: 20px;
@@ -108,16 +64,6 @@ button:hover {
 </style>
 </head>
 <body>
-<div class="topnav">
-    <img class="logo" src="../images/condensed-tunedtv.jpg">
-    <a href="../index.html">Home</a>
-    <a href="../html/leagues.html">Leagues</a>
-    <a href="../html/premium.html">Premium</a>
-    <a href="../html/about.html">About</a>
-    <a href="../exclusive/exclusive.html">Exclusive Content</a>
-    <a class="active" href="#signup">Sign Up</a>
-    <a href="login.php">Login</a>
-  </div>
     <section class="signup-form">
     <h2>Sign Up</h2>
     <form action="../included/signup.inc.php" method="post">
@@ -132,6 +78,34 @@ button:hover {
         <button type="button" class="cancelbtn">Cancel</button>
         <button type="submit" class="submitbtn">Sign Up</button>
     </form>
+  </div>
+
+<?php
+  if (isset($_GET["error"])) {
+    if ($_GET["error"] == "emptyInput") {
+      echo "<p>Fill in all fields</p>";
+    }
+    else if ($_GET["error"] == "invaliduid") {
+      echo "<p>Choose a proper username</p>";
+    }
+    else if ($_GET["error"] == "invalidemail") {
+      echo "<p>Choose a proper email</p>";
+    }
+    else if ($_GET["error"] == "passwordsdontmatch") {
+      echo "<p>Passwords don't match</p>";
+    }
+    else if ($_GET["error"] == "stmtfailed") {
+      echo "<p>Something went wrong, try again</p>";
+    }
+    else if ($_GET["error"] == "usernametaken") {
+      echo "<p>Username already taken</p>";
+    }
+    else if ($_GET["error"] == "none") {
+      echo "<p>You have signed up</p>";
+    }
+
+  }
+?>
 </body>
 </section>
 </html>

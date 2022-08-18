@@ -2,11 +2,11 @@
 <html>
     <div class="topnav">
       <img class="logo" src="../images/condensed-tunedtv.jpg">  
-      <a href="../index.html">Home</a>
-        <a href="leagues.html">Leagues</a>
-        <a href="premium.html">Premium</a>
+      <a href="../index.php">Home</a>
+        <a href="leagues.php">Leagues</a>
+        <a href="premium.php">Premium</a>
         <a class="active" href="#about">About</a>
-        <a href="../exclusive/exclusive.html">Exclusive Content</a>
+        <a href="../exclusive/exclusive.php">Exclusive Content</a>
       </div>
 <head>
     <meta charset="UTF-8">
@@ -33,14 +33,14 @@
 <br>
 <div class="row">
   <div class="column">
-    <a href="roadmap.html">
+    <a href="roadmap.php">
     <div class="card">
       <h3>Roadmap</h3>
     </div>
     </a>
   </div>
   <div class="column">
-    <a href="devblog.html">
+    <a href="devblog.php">
     <div class="card">
       <h3>Devlog</h3>
     </div>

@@ -1,11 +1,14 @@
+<?php
+  session_start();
+?>
 <!DOCTYPE html>
 <html>
     <div class="topnav">
       <img class="logo" src="../images/condensed-tunedtv.jpg">  
-      <a href="../index.html">Home</a>
-        <a href="../html/leagues.html">Leagues</a>
-        <a href="../html/premium.html">Premium</a>
-        <a href="../html/about.html">About</a>
+      <a href="../index.php">Home</a>
+        <a href="../html/leagues.php">Leagues</a>
+        <a href="../html/premium.php">Premium</a>
+        <a href="../html/about.php">About</a>
         <a class="active" href="#exclusive">Exclusive Content</a>
       </div>
 <head>
@@ -22,7 +25,7 @@
         alert('Password Correct! Click OK to enter!');
     else
         {
-            window.location="exclusive.html";
+            window.location="exclusive.php";
         }
 </script>
 </head>

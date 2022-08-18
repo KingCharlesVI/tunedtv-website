@@ -1,13 +1,16 @@
+<?php
+  session_start();
+?>
 <!DOCTYPE html>
 <html>
     <div class="topnav">
       <img class="logo" src="../images/condensed-tunedtv.jpg">  
-      <a href="../index.html">Home</a>
-        <a href="leagues.html">Leagues</a>
-        <a href="premium.html">Premium</a>
-        <a href="about.html">About</a>
-        <a href="../exclusive/exclusive.html">Exclusive Content</a>
-      </div>
+      <a href="../index.php">Home</a>
+      <a href="leagues.php">Leagues</a>
+      <a class="active" href="#premium">Premium</a>
+      <a href="about.php">About</a>
+      <a href="../exclusive/exclusive.php">Exclusive Content</a>
+    </div>
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/roadmap.css">
@@ -67,3 +70,4 @@
         <p><b>TunedTV</b><br><b>Developed by:</b> KingCharlesVI, Kosmik247<br><b>Version: </b>v0.2</p>
     </footer>
 </body>
+</html>
