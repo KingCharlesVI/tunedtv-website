@@ -19,3 +19,4 @@ else {
     header("location: ../php/login.php");
     exit();
 }
+?>

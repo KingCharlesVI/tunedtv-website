@@ -120,3 +120,4 @@ function loginUser($conn, $name, $pwd) {
       exit();
     }
 }
+?>
