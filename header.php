@@ -3,6 +3,13 @@
 ?>
 <!DOCTYPE html>
 <html>
+  <head>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>TunedTV</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  </head>
+  <body>
   <div class="topnav">
     <img class="logo" src="images/condensed-tunedtv.jpg">
     <a class="active" href="#home">Home</a>
@@ -18,11 +25,7 @@
       else {
         echo "<a href="php/signup.php">Sign Up</a>";
         echo "<a href="php/login.php">Login</a>";
-      }
+      } ?>
   </div>
-  <head>
-  <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <title>TunedTV</title>
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-  </head>
+</body>
+</html>
