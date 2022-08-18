@@ -1,5 +1,10 @@
 <?php
   session_start();
+  if(!isset($_SESSION['useruid'])) // The exact conditional depends on your login-system implementation
+  {
+    header('Location: /php/login.php?notloggedin'); // Instructs the visitor's browser to redirect
+    exit(); // <-- What you want. Prevents further code from being executed, works as a security measure.
+  }
 ?>
 <!DOCTYPE html>
 <html>
@@ -16,18 +21,6 @@
     <link rel="stylesheet" href="../css/about.css">
     <title>TunedTV</title>
   <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
-  <script>
-    var password;
-    var admin="sxrNGfkZQa";
-    var pass2="customer";
-    password=prompt('Password login Required')
-    if (password==admin,pass2)
-        alert('Password Correct! Click OK to enter!');
-    else
-        {
-            window.location="exclusive.php";
-        }
-</script>
 </head>
 <body>
     <center><h1>Exclusive Content</h1></center>

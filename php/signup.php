@@ -94,7 +94,8 @@ button:hover {
     }
   }
   ?>
-  <a href="reset=password.php">Forgot your password?</a>
+  <a href="reset-password.php">Forgot your password?</a>
+  <a href="login.php">Login instead</a>
 </section>
 <?php
   if (isset($_GET["error"])) {
