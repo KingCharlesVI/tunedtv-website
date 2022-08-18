@@ -75,7 +75,7 @@ button:hover {
 <body>
   <div>
     <section class="signup-form">
-    <h2>Sign Up</h2>
+    <h2>Login</h2>
     <form action="../includes/login.inc.php" method="post">
         <input type="text" name="uid" placeholder="Username">
         <br>
