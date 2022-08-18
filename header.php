@@ -1,13 +1,28 @@
+<?php
+  session_start();
+?>
 <!DOCTYPE html>
 <html>
   <div class="topnav">
     <img class="logo" src="images/condensed-tunedtv.jpg">
     <a class="active" href="#home">Home</a>
-    <a href="html/leagues.html">Leagues</a>
-    <a href="html/premium.html">Premium</a>
-    <a href="html/about.html">About</a>
-    <a href="exclusive/exclusive.html">Exclusive Content</a>
-    <a href="php/signup.php">Sign Up</a>
-    <a href="php/login.php">Login</a>
+    <a href="html/leagues.php">Leagues</a>
+    <a href="html/premium.php">Premium</a>
+    <a href="html/about.php">About</a>
+    <a href="exclusive/exclusive.php">Exclusive Content</a>
+    <?php
+      if (isset($_SESSION["useruid"])) {
+        echo "<a href="php/profile.php">Profile</a>";
+        echo "<a href="php/logout.inc.php">Logout</a>";
+      }
+      else {
+        echo "<a href="php/signup.php">Sign Up</a>";
+        echo "<a href="php/login.php">Login</a>";
+      }
   </div>
-</html>
+  <head>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>TunedTV</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  </head>
