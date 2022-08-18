@@ -25,7 +25,7 @@
       else {
         echo "<a href="php/signup.php">Sign Up</a>";
         echo "<a href="php/login.php">Login</a>";
-      }
+      } ?>
   </div>
 </body>
 </html>
