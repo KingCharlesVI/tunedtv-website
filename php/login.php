@@ -73,17 +73,7 @@ button:hover {
 </style>
 </head>
 <body>
-    <?php
-        if (isset($_SESSION["useruid"])) {
-            echo "<a href='profile.php'>Profile</a>";
-            echo "<a href='logout.php'>Logout</a>";
-        }
-        else {
-           echo "<a href='signup.php'>Sign Up</a>";
-           echo "<a href='login.php'>Login</a>";
-        }
-    ?>
-  </div>
+  <div>
     <section class="signup-form">
     <h2>Sign Up</h2>
     <form action="../included/login.inc.php" method="post">
