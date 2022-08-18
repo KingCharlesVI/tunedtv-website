@@ -1,6 +1,6 @@
 <?php
 
-$serverName = "127.0.0.1:3306";
+$serverName = "localhost";
 $dBUsername = "u297474313_Admin";
 $dBPassword = "p_]8k?HEw&U/z$,";
 $dBName = "u297474313_TunedTv";
