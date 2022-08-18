@@ -90,7 +90,7 @@ button:hover {
   <?php
   if (isset($_Get["newpwd"])) {
     if ($_GET["newpwd"] == "passwordupdated") {
-      echo '<p class-"signupsuccess">Your password has been reset</p>'
+      echo '<p class-"signupsuccess">Your password has been reset</p>';
     }
   }
   ?>
