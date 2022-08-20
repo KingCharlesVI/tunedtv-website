@@ -8,10 +8,10 @@ if(isset($_POST["reset-password-submit"])) {
     $passwordRepeat = $_POST["pwd-repeat"];
 
     if (empty($password) || empty($passwordRepeat)) {
-        header("Location: /php/signup.php?newpwd=empty")
+        header("Location: /php/signup.php?newpwd=empty");
         exit();
     } else if ($password !== $passwordRepeat) {
-        header("Location: /php/signup.php?newpwd=pwdnotsame")
+        header("Location: /php/signup.php?newpwd=pwdnotsame");
         exit();
     }
 
