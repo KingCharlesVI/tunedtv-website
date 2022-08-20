@@ -82,13 +82,14 @@ button:hover {
         <button type="submit" class="submitbtn" name="reset-request-submit">Request password change email</button>
     </form>
   </div>
+  <a href="reset=password.php">Forgot your password?</a>
   <?php
     if (isset($_GET["reset"])) {
         if ($_GET["reset"] == "success") {
             echo '<p class="signupsuccess">Check your e-mail</p>';
         }
     }
-  <a href="reset=password.php">Forgot your password?</a>
+  ?>
 
 <?php
   if (isset($_GET["error"])) {
