@@ -79,6 +79,10 @@ function gridView() {
         <br>
         <textarea name="description" placeholder="Tell us more about your league"></textarea>
         <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <button type="button" class="cancelbtn">Cancel</button>
         <button type="submit" class="submitbtn">Submit League</button>
     </form>
