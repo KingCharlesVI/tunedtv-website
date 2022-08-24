@@ -78,6 +78,7 @@ function gridView() {
           <option value="oceania">Oceania</option>
         <br>
         <textarea name="description" placeholder="Tell us more about your league: What sim(s)? How often? What time? How many drivers? How many viewers expected? How old is the league? Do you have a broadcaster/commentator?"></textarea>
+        <br>
         <button type="button" class="cancelbtn">Cancel</button>
         <button type="submit" class="submitbtn">Submit League</button>
     </form>

@@ -36,7 +36,7 @@ button {
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 50%;
+  width: 25%;
   opacity: 0.9;
 }
 
@@ -59,7 +59,7 @@ button:hover {
 /* Float cancel and signup buttons and add an equal width */
 .cancelbtn, .submitbtn {
   float: left;
-  width: 50%;
+  width: 25%;
 }
 
 /* Add padding to container elements */
