@@ -4,36 +4,14 @@
 <?php
   include_once '../header.php'
 ?>
-<!DOCTYPE html>
-<html>
 <head>
-  <meta charset="UTF-8">
-    <link rel="stylesheet" href="../css/lvf1.css">
-    <title>TunedTV</title>
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-  </head>
-<!DOCTYPE html>
-<html>
-    <div class="topnav">
-      <img class="logo" src="../images/condensed-tunedtv.jpg">  
-      <a href="../index.php">Home</a>
-      <a href="leagues.php">Leagues</a>
-      <a href="premium.php">Premium</a>
-      <a href="about.php">About</a>
-      <a href="../exclusive/exclusive.php">Exclusive Content</a>
-    </div>
-<head>
-    <script src="https://unpkg.com/@mux/mux-player"></script>
-    <meta charset="UTF-8">
-  <link rel="stylesheet" href="../css/lvf1.css">
-    <title>TunedTV</title>
-  <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+  <link href="//vjs.zencdn.net/7.10.2/video-js.min.css" rel="stylesheet">
+  <script src="//vjs.zencdn.net/7.10.2/video.min.js"></script>
 </head>
 <style>
   h1 {text-align: center}
   h2 {text-align: center}
   h3 {text-align: center}
-  p {text-align: center}
 </style>
 <body>
 <br>
@@ -41,12 +19,22 @@
 <br>
 <p>Livestream should start automatically. If it does not, please refresh the page.</p>
 <center>
-<iframe
-    src="https://player.twitch.tv/?channel=ligavirtualf1&parent=tunedtv.co.uk&muted=true"
-    height="720"
-    width="1280"
-    allowfullscreen>
-</iframe>
+<video
+    id="my-player"
+    class="video-js"
+    controls
+    preload="auto"
+    poster="/images/Logo-C.jpg"
+    data-setup='{}'>
+  <source src="https://10.88.1.61/embed/video"></source>
+  <p class="vjs-no-js">
+    To view this video please enable JavaScript, and consider upgrading to a
+    web browser that
+    <a href="https://videojs.com/html5-video-support/" target="_blank">
+      supports HTML5 video
+    </a>
+  </p>
+</video>
 </center>
 <h2>Additional feeds:</h2>
 <h3>Coming Soon</h3>
