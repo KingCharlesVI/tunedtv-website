@@ -86,7 +86,7 @@ button:hover {
         <input type="password" name="pwd" placeholder="Password">
         <br>
         <button type="button" class="cancelbtn">Cancel</button>
-        <button type="submit" class="submitbtn">Login</button>
+        <button type="submit" class="submitbtn" name="submit">Login</button>
     </form>
 </div>
 
