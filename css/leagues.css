@@ -87,6 +87,41 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+  width: 25%;
+}
+
+/* Extra styles for the submit button */
+.submitbtn {
+  width: 25%;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .submitbtn {
+  float: left;
+  width: 25%;
+}
+
+
 /* Footer */
 footer {
   text-align: left;
