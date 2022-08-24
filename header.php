@@ -24,24 +24,5 @@
         echo "<a href='/php/login.php'>Login</a>";
       } ?>
   </div>
-<style>
-
-  footer {
-    text-align: left;
-    padding: 3px;
-    background-color: rgb(0, 0, 0);
-    color: white;
-  }
-
-</style>
 </body>
-<footer>
-  <p><b>TunedTV</b><br><b>Developed by:</b> KingCharlesVI, Kosmik247<br><b>Version: </b>v0.2</p>
-  <div class="discordlogo">
-    <img src="/images/discord.png" style="width:42px;height:42px">
-    </div>
-  <div class="githublogo">
-    <img src="/images/github.png" style="width:42px;height:42px">
-    </div>
-  </footer>
 </html>

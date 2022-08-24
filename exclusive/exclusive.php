@@ -198,7 +198,9 @@
 <br>
 <br>
 <footer>
-    <p><b>TunedTV</b><br><b>Developed by:</b> KingCharlesVI, Kosmik247<br><b>Version: </b>v0.2</p>
+  <p><b>TunedTV</b><br><b>Developed by:</b> KingCharlesVI, Kosmik247<br><b>Version: </b>v0.2</p>
+  <img src="/images/discord.png" style="width:42px;height:42px">
+  <img src="/images/github.png" style="width:42px;height:42px">
   </footer>
 </body>
 </html>
