@@ -4,10 +4,16 @@
 <?php
   include_once '../header.php'
 ?>
+<!DOCTYPE html>
+<html>
 <head>
-  <link href="//vjs.zencdn.net/7.10.2/video-js.min.css" rel="stylesheet">
-  <script src="//vjs.zencdn.net/7.10.2/video.min.js"></script>
-</head>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/lvf1.css">
+    <title>TunedTV</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link href="//vjs.zencdn.net/7.10.2/video-js.min.css" rel="stylesheet">
+    <script src="//vjs.zencdn.net/7.10.2/video.min.js"></script>
+  </head>
 <style>
   h1 {text-align: center}
   h2 {text-align: center}
@@ -19,22 +25,14 @@
 <br>
 <p>Livestream should start automatically. If it does not, please refresh the page.</p>
 <center>
-<video
-    id="my-player"
-    class="video-js"
-    controls
-    preload="auto"
-    poster="/images/Logo-C.jpg"
-    data-setup='{}'>
-  <source src="https://10.88.1.61/embed/video"></source>
-  <p class="vjs-no-js">
-    To view this video please enable JavaScript, and consider upgrading to a
-    web browser that
-    <a href="https://videojs.com/html5-video-support/" target="_blank">
-      supports HTML5 video
-    </a>
-  </p>
-</video>
+<iframe
+  src="https://10.88.1.61/embed/video"
+  title="Owncast"
+  height="720px" width="1280px"
+  referrerpolicy="origin"
+  scrolling="no"
+  allowfullscreen>
+</iframe>
 </center>
 <h2>Additional feeds:</h2>
 <h3>Coming Soon</h3>
