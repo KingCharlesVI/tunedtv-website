@@ -35,7 +35,7 @@
 <h3>Coming Soon</h3>
 <br>
 <h2>VODs for this league:</h2>
-<a href="../vods/lvf1vods.html"><h3>LVF1 VODs</h3></a>
+<a href="../vods/lvf1vods.php"><h3>LVF1 VODs</h3></a>
 <br>
 <h2>League Details:</h2>
 <h3><b>Current Championship:</b><br><a href="https://ligavirtualf1.es/en/Championship/Standings" target="_blank">F1 2021</a>
