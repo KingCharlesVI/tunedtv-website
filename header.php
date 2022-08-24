@@ -3,6 +3,9 @@
 ?>
 <!DOCTYPE html>
 <html>
+  <head>
+    <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico"/>
+  </head>
   <body>
   <div class="topnav">
     <img class="logo" src="/images/condensed-tunedtv.jpg">
