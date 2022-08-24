@@ -23,14 +23,12 @@
 <br>
 <h1><u>LigavirtualF1</u></h1>
 <br>
-<center><p>Livestream should start automatically. If it does not, please refresh the page.</p></center>
+<center><p>Livestream should start automatically. If it does not, please refresh the page.</p>
 <iframe
-  src="https://10.88.1.61/embed/video"
-  title="Owncast"
-  height="720px" width="1280px"
-  referrerpolicy="origin"
-  scrolling="no"
-  allowfullscreen>
+    src="https://player.twitch.tv/?channel=ligavirtualf1&parent=tunedtv.co.uk&muted=true"
+    height="720"
+    width="1280"
+    allowfullscreen>
 </iframe>
 </center>
 <h2>Additional feeds:</h2>
