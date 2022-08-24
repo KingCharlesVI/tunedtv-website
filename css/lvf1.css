@@ -44,6 +44,12 @@
         margin: 40px auto;
       } 
 
+/* Twitch Chat */
+
+.chat {
+  float: right;
+}
+
 /* Footer */
 footer {
   text-align: left;
