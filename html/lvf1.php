@@ -30,6 +30,12 @@
     width="1280"
     allowfullscreen>
 </iframe>
+<div class="chat">
+  <iframe src="https://www.twitch.tv/embed/ligavirtualf1/chat?parent=tunedtv.co.uk"
+          height="300"
+          width="350">
+  </iframe>
+  </div>
 </center>
 <h2>Additional feeds:</h2>
 <h3>Coming Soon</h3>
