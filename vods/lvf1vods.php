@@ -1,6 +1,8 @@
 <?php
-    session_start();
-    include_once '/header.php'
+  session_start();
+?>
+<?php
+  include_once '../header.php'
 ?>
 <!DOCTYPE html>
 <html>
@@ -65,8 +67,11 @@
         <div class="desc">Bahrain Grand Prix</div>
     </div>
     <br>
-    <hr>
     <br>
-    <center><h2>Another series</h2></center>
+    <br>
+    <center><h2>Previous series</h2></center>
+    <br>
+    <br>
+    <br>
 </body>
 </html>
