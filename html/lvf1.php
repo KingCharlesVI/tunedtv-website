@@ -23,8 +23,7 @@
 <br>
 <h1><u>LigavirtualF1</u></h1>
 <br>
-<p>Livestream should start automatically. If it does not, please refresh the page.</p>
-<center>
+<center><p>Livestream should start automatically. If it does not, please refresh the page.</p></center>
 <iframe
   src="https://10.88.1.61/embed/video"
   title="Owncast"
