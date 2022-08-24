@@ -48,6 +48,8 @@
 
 .chat {
   float: right;
+  margin: 20px;
+  color: black;
 }
 
 /* Footer */
