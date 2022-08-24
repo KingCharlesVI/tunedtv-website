@@ -82,6 +82,8 @@ function gridView() {
         <button type="submit" class="submitbtn">Submit League</button>
     </form>
 <br>
+<br>
+<br>
 <footer>
   <p><b>TunedTV</b><br><b>Developed by:</b> KingCharlesVI, Kosmik247<br><b>Version: </b>v0.2</p>
   <a href="https://discord.gg/UpweTajymD" target="_blank"><img src="/images/discord.png" style="width:42px;height:42px"></a>
