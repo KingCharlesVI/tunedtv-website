@@ -48,7 +48,7 @@
 
 .chat {
   float: right;
-  margin: 200px;
+  padding-right: 200px;
   color: black;
 }
 
