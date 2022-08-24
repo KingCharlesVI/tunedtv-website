@@ -1,5 +1,6 @@
 <?php
     session_start();
+    include_once '/header.php'
 ?>
 <!DOCTYPE html>
 <html>
@@ -14,7 +15,7 @@
         <br>
         <br>
         <br>
-        <h2>F1 2021</h2>
+        <h2>F1 2021</h2></center>
     <div class="gallery">
         <iframe width="420" height="315" src="https://www.youtube.com/embed/ZHp1z1tuL_U"></iframe>
         <div class="desc">Belgian Grand Prix</div>
@@ -63,5 +64,9 @@
         <iframe width="420" height="315" src="https://www.youtube.com/embed/gzCX2ItmI8k"></iframe>
         <div class="desc">Bahrain Grand Prix</div>
     </div>
+    <br>
+    <hr>
+    <br>
+    <center><h2>Another series</h2></center>
 </body>
 </html>
