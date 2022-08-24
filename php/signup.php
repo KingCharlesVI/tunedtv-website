@@ -88,7 +88,7 @@ button:hover {
         <input type="password" name="pwdrepeat" placeholder="Confirm Password">
         <br>
         <button type="button" class="cancelbtn">Cancel</button>
-        <button type="submit" class="submitbtn">Sign Up</button>
+        <button type="submit" class="submitbtn" name="submit">Sign Up</button>
     </form>
   </div>
   <?php
