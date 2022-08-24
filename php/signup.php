@@ -79,7 +79,7 @@ button:hover {
     <section class="signup-form">
     <h2>Sign Up</h2>
     <form action="../includes/signup.inc.php" method="post">
-        <input type="text" name="name" placeholder="Username">
+        <input type="text" name="uid" placeholder="Username">
         <br>
         <input type="text" name="email" placeholder="Email">
         <br>
