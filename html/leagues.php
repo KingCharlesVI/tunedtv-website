@@ -59,10 +59,29 @@ function gridView() {
 </script>
 <br>
 <h3>Contact us to submit your league to the Closed Beta testing</h3>
-<p>
-  <b><a href="https://discord.gg/UpweTajymD" target="_blank">Discord Server</a></b><br>
-  <b>Email: </b>support@tunedtv.co.uk
-</p>
+<b><p>Only the league owner or authorised league admins may submit their league to TunedTV. This should NOT UNDER ANY CIRCUMSTANCES be done by anyone else.</p></b>
+<br>
+<form class="contact-form" action="../includes/contactform.inc.php" method="post">
+        <input type="text" name="name" placeholder="Name">
+        <br>
+        <input type="text" name="email" placeholder="Email">
+        <br>
+        <input type="text" name="leaguename" placeholder="League Name">
+        <br>
+        <select id="region" name="region">
+          <option value="">--Select a region--</option>
+          <option value="namerica">North America</option>
+          <option value="samerica">South America</option>
+          <option value="europe">Europe</option>
+          <option value="africa">Africa</option>
+          <option value="asia">Asia</option>
+          <option value="oceania">Oceania</option>
+        <br>
+        <textarea name="description" placeholder="Tell us more about your league: What sim(s)? How often? What time? How many drivers? How many viewers expected? How old is the league? Do you have a broadcaster/commentator?"></textarea>
+        <button type="button" class="cancelbtn">Cancel</button>
+        <button type="submit" class="submitbtn">Submit League</button>
+    </form>
+<br>
 <footer>
   <p><b>TunedTV</b><br><b>Developed by:</b> KingCharlesVI, Kosmik247<br><b>Version: </b>v0.2</p>
   <a href="https://discord.gg/UpweTajymD" target="_blank"><img src="/images/discord.png" style="width:42px;height:42px"></a>
