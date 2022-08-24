@@ -69,8 +69,5 @@
 <br>
 <br>
 <br>
-<footer>
-  <p><b>TunedTV</b><br><b>Developed by:</b> KingCharlesVI, Kosmik247<br><b>Version: </b>v0.2</p>
-</footer>
 </body>
 </html>
