@@ -32,7 +32,7 @@
 </iframe>
 <div class="chat">
   <iframe src="https://www.twitch.tv/embed/ligavirtualf1/chat?parent=tunedtv.co.uk"
-          height="300"
+          height="600"
           width="350">
   </iframe>
   </div>
