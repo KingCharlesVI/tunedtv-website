@@ -1,6 +1,6 @@
 <?php
   session_start();
-  include_once '/header.php';
+  include_once '../header.php';
   if(!isset($_SESSION['id'])) // The exact conditional depends on your login-system implementation
   {
     header('Location: /login.php?notloggedin'); // Instructs the visitor's browser to redirect
