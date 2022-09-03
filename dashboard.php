@@ -17,7 +17,7 @@
 <body>
 <h1>Welcome <?php echo ucfirst($_SESSION['first_name']); ?></h1>
 <br>
-<h1>This is your personal dashboard page</h1>
+<h2>This is your personal dashboard page</h2>
 <br>
 <br>
 <br>
