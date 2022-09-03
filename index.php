@@ -55,6 +55,14 @@
 <h2>Newsfeed</h2>
 <br>
 <div class="row">
+<div class="column">
+    <a href="html/devblog.php">
+    <div class="card">
+      <h3>Devlog #2</h3>
+      <p>Version 0.25 released</p>
+    </div>
+    </a>
+  </div>
   <div class="column">
     <a href="html/devblog.php">
     <div class="card">
