@@ -1,21 +1,14 @@
 <?php
   session_start();
-  if(!isset($_SESSION['useruid'])) // The exact conditional depends on your login-system implementation
+  include_once '/header.php';
+  if(!isset($_SESSION['id'])) // The exact conditional depends on your login-system implementation
   {
-    header('Location: /php/login.php?notloggedin'); // Instructs the visitor's browser to redirect
+    header('Location: /login.php?notloggedin'); // Instructs the visitor's browser to redirect
     exit(); // <-- What you want. Prevents further code from being executed, works as a security measure.
   }
 ?>
 <!DOCTYPE html>
 <html>
-    <div class="topnav">
-      <img class="logo" src="../images/condensed-tunedtv.jpg">  
-      <a href="../index.php">Home</a>
-        <a href="../html/leagues.php">Leagues</a>
-        <a href="../html/premium.php">Premium</a>
-        <a href="../html/about.php">About</a>
-        <a class="active" href="#exclusive">Exclusive Content</a>
-      </div>
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/about.css">
