@@ -16,7 +16,22 @@
   </head>
 <body>
 <h1>Welcome <?php echo ucfirst($_SESSION['first_name']); ?></h1>
-<a href="logout.php?logout=true">Logout</a>
+<br>
+<h1>This is your personal dashboard page</h1>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <footer>
 <p><b>TunedTV</b><br><b>Developed by:</b> KingCharlesVI, Kosmik247<br><b>Version: </b>v0.25</p>
 <a href="https://discord.gg/UpweTajymD" target="_blank"><img src="/images/discord.png" style="width:42px;height:42px"></a>
