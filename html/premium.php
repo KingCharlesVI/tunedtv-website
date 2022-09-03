@@ -33,7 +33,7 @@
     <li>Exclusive shows</li>
     <li>Your name on stream and on the website</li>
     <li><b>The satisfaction of knowing you're keeping us alive!</b></li>
-    <li class="grey"><a href="https://buy.stripe.com/eVaaFXbtf4cR412aEE" class="button">Purchase</a></li>
+    <li class="grey"><a href="https://buy.stripe.com/eVaaFXbtf4cR412aEE" class="button">Purchase (THIS DOES NOT WORK YET, DO NOT CLICK)</a></li>
   </ul>
 </div>
 <br>
@@ -101,7 +101,7 @@
 <br>
 <br>
 <footer>
-  <p><b>TunedTV</b><br><b>Developed by:</b> KingCharlesVI, Kosmik247<br><b>Version: </b>v0.2</p>
+  <p><b>TunedTV</b><br><b>Developed by:</b> KingCharlesVI, Kosmik247<br><b>Version: </b>v0.25</p>
   <a href="https://discord.gg/UpweTajymD" target="_blank"><img src="/images/discord.png" style="width:42px;height:42px"></a>
   <a href="https://github.com/KingCharlesVI/tunedtv-website" target="_blank"><img src="/images/github.png" style="width:42px;height:42px"></a>
   </footer>

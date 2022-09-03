@@ -26,14 +26,14 @@
 <center><h2><u>Streaming the action</u></h2></center>
 <br>
 <div class="textarea">
-<h2>Upcoming Races (CARDS NOT FUNCTIONAL)</h2>
+<h2>Upcoming Races</h2>
 <br>
 <div class="row">
   <div class="column">
     <a href="html/lvf1.php">
     <div class="card">
       <h3>LVF1 F1 2021</h3>
-      <p>Belgian Grand Prix</p>
+      <p>Russian Grand Prix</p>
     </div>
     </a>
   </div>
@@ -70,7 +70,7 @@
 <br>
 <br>
 <footer>
-  <p><b>TunedTV</b><br><b>Developed by:</b> KingCharlesVI, Kosmik247<br><b>Version: </b>v0.2</p>
+  <p><b>TunedTV</b><br><b>Developed by:</b> KingCharlesVI, Kosmik247<br><b>Version: </b>v0.25</p>
   <a href="https://discord.gg/UpweTajymD" target="_blank"><img src="/images/discord.png" style="width:42px;height:42px"></a>
   <a href="https://github.com/KingCharlesVI/tunedtv-website" target="_blank"><img src="/images/github.png" style="width:42px;height:42px"></a>
   </footer>
