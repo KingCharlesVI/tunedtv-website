@@ -1,6 +1,6 @@
 <?php
-$dsn = 'mysql:dbname=u297474313_TunedTv;host=localhost';
-$user = 'u297474313_Admin';
+$dsn = 'mysql:dbname=u297474313_Membership;host=localhost';
+$user = 'u297474313_admin';
 $password = 'p_]8k?HEw&U/z$,';
  
 try
