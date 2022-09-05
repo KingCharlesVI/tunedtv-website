@@ -67,13 +67,16 @@ function gridView() {
   <li><b>Subject: </b>League submission</li>
   <li>League Name</li>
   <li>League Region (multiple allowed)</li>
-  <li>About the league</li>
-    <li>What sim?</li>
-    <li>What kind of series?</li>
-    <li>Event format and timings?</li>
-    <li>When?</li>
-    <li>Do you have your own broadcaster(s)/commentator(s) or do you need us to do that?</li>
-    <li>How many drivers expected per race?</li>
+  <li>About the league
+    <ul>
+      <li>What sim?</li>
+      <li>What kind of series?</li>
+      <li>Event format and timings?</li>
+      <li>When?</li>
+      <li>Do you have your own broadcaster(s)/commentator(s) or do you need us to do that?</li>
+      <li>How many drivers expected per race?</li>
+    </ul>
+  </li>
 </ul>
 <h4>You will then receive a reply within 24 hours with further instructions.</h4>
 <p>If you do not receive an email within 24 hours, please just be patient- we will get to you as soon as we can, we are probably just busy with IRL stuff.</p>
