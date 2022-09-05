@@ -58,40 +58,25 @@ function gridView() {
 }
 </script>
 <br>
-<h3>Contact us to submit your league to the Closed Beta testing</h3>
-<b><p>Only the league owner or authorised league admins may submit their league to TunedTV. This should NOT UNDER ANY CIRCUMSTANCES be done by anyone else.</p></b>
+<h3>How to to submit your league to the Closed Beta testing</h3>
+<b><p>Only the league owner or authorised league admins may submit their league to TunedTV. This should NOT UNDER ANY CIRCUMSTANCES be done by anyone else!</p></b>
 <br>
-<form class="contact-form" action="../includes/contactform.inc.php" method="post">
-        <input type="text" name="name" placeholder="Name">
-        <br>
-        <input type="text" name="email" placeholder="Email">
-        <br>
-        <input type="text" name="leaguename" placeholder="League Name">
-        <br>
-        <select id="region" name="region">
-          <option value="">--Select a region--</option>
-          <option value="namerica">North America</option>
-          <option value="samerica">South America</option>
-          <option value="europe">Europe</option>
-          <option value="africa">Africa</option>
-          <option value="asia">Asia</option>
-          <option value="oceania">Oceania</option>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <textarea name="description" placeholder="Tell us more about your league"></textarea>
-        <br>
-        <button type="button" class="cancelbtn">Cancel</button>
-        <button type="submit" class="submitbtn">Submit League</button>
-    </form>
-<br>
+<h4>Email us using the following guidelines:</h4>
+<ul>
+  <li><b>To: </b>support@tunedtv.co.uk</li>
+  <li><b>Subject: </b>League submission</li>
+  <li>League Name</li>
+  <li>League Region (multiple allowed)</li>
+  <li>About the league</li>
+    <li>What sim?</li>
+    <li>What kind of series?</li>
+    <li>Event format and timings?</li>
+    <li>When?</li>
+    <li>Do you have your own broadcaster(s)/commentator(s) or do you need us to do that?</li>
+    <li>How many drivers expected per race?</li>
+</ul>
+<h4>You will then receive a reply within 24 hours with further instructions.</h4>
+<p>If you do not receive an email within 24 hours, please just be patient- we will get to you as soon as we can, we are probably just busy with IRL stuff.</p>
 <br>
 <br>
 <footer>

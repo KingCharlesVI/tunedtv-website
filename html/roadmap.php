@@ -22,8 +22,7 @@
         <div class="container left">
           <div class="content">
             <h2>Update 0.1, July 2022</h2>
-            <p>Begin development<br>Basic layout and functionality added
-            </p>
+            <p>Hosted on the web<br>Begin development<br>Basic layout and functionality added</p>
           </div>
         </div>
         <div class="container right">
@@ -35,14 +34,13 @@
         <div class="container left">
             <div class="content">
               <h2>Update 0.3, August/September 2022</h2>
-              <p>Hosted on web<br>Full functionality test
-              </p>
+              <p>Full functionality testing<br>Continual improvements/bug fixes</p>
             </div>
           </div>
           <div class="container right">
             <div class="content">
               <h2>Update 0.4, September 2022</h2>
-              <p>Closed beta program begins<br>Continual improvements/bug fixes<br>Premium service begins</p>
+              <p>Closed beta program begins<br>Streams conducted via twitch as placeholder for native streaming (ETA Update 0.5)<br>Continual improvements/bug fixes</p>
             </div>
           </div>
           <div class="container left">
@@ -54,19 +52,19 @@
           <div class="container right">
             <div class="content">
               <h2>Update 1.0, Early 2023</h2>
-              <p>Full public release<br>Open league addition begins<br>
-              </p>
+              <p>Full public release<br>Open league addition begins<br>Premium service begins<br>Continual improvements/bug fixes</p>
             </div>
           </div>
       </div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
+<br>
+<h2>Contributing</h2>
+<p>Go to our Github wiki <a href='https://github.com/KingCharlesVI/tunedtv-website/wiki/Development'>here</a> to see how you can contribute to TunedTV</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <footer>
 <p><b>TunedTV</b><br><b>Developed by:</b> KingCharlesVI, Kosmik247, Kip<br><b>Version: </b>v0.25</p>
 <a href="https://discord.gg/UpweTajymD" target="_blank"><img src="/images/discord.png" style="width:42px;height:42px"></a>
