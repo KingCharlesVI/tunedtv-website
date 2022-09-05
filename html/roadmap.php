@@ -45,13 +45,13 @@
               <p>Closed beta program begins<br>Continual improvements/bug fixes<br>Premium service begins</p>
             </div>
           </div>
-          <div class="container right">
+          <div class="container left">
             <div class="content">
               <h2>Update 0.5, November/December 2022</h2>
               <p>Native streaming service begins<br>Continual improvements/bug fixes</p>
             </div>
           </div>
-          <div class="container left">
+          <div class="container right">
             <div class="content">
               <h2>Update 1.0, Early 2023</h2>
               <p>Full public release<br>Open league addition begins<br>
@@ -68,7 +68,7 @@
       <br>
       <br>
 <footer>
-<p><b>TunedTV</b><br><b>Developed by:</b> KingCharlesVI, Kosmik247<br><b>Version: </b>v0.25</p>
+<p><b>TunedTV</b><br><b>Developed by:</b> KingCharlesVI, Kosmik247, Kip<br><b>Version: </b>v0.25</p>
 <a href="https://discord.gg/UpweTajymD" target="_blank"><img src="/images/discord.png" style="width:42px;height:42px"></a>
 <a href="https://github.com/KingCharlesVI/tunedtv-website" target="_blank"><img src="/images/github.png" style="width:42px;height:42px"></a>
 </footer>

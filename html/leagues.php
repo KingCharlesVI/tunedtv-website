@@ -77,6 +77,15 @@ function gridView() {
           <option value="asia">Asia</option>
           <option value="oceania">Oceania</option>
         <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <textarea name="description" placeholder="Tell us more about your league"></textarea>
         <br>
         <button type="button" class="cancelbtn">Cancel</button>
@@ -86,7 +95,7 @@ function gridView() {
 <br>
 <br>
 <footer>
-  <p><b>TunedTV</b><br><b>Developed by:</b> KingCharlesVI, Kosmik247<br><b>Version: </b>v0.25</p>
+  <p><b>TunedTV</b><br><b>Developed by:</b> KingCharlesVI, Kosmik247, Kip<br><b>Version: </b>v0.25</p>
   <a href="https://discord.gg/UpweTajymD" target="_blank"><img src="/images/discord.png" style="width:42px;height:42px"></a>
   <a href="https://github.com/KingCharlesVI/tunedtv-website" target="_blank"><img src="/images/github.png" style="width:42px;height:42px"></a>
   </footer>
