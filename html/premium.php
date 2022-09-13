@@ -33,9 +33,11 @@
     <li>Exclusive shows</li>
     <li>Your name on stream and on the website</li>
     <li><b>The satisfaction of knowing you're keeping us alive!</b></li>
-    <li class="grey"><a href="https://buy.stripe.com/eVaaFXbtf4cR412aEE" class="button">Purchase (THIS DOES NOT WORK YET, DO NOT CLICK)</a></li>
+    <li class="grey"><a href="https://buy.stripe.com/eVaaFXbtf4cR412aEE" class="button">Purchase (!!!DO NOT CLICK!!!)</a></li>
   </ul>
 </div>
+<br>
+<br>
 <br>
 <br>
 <br>
