@@ -13,7 +13,6 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/about.css">
     <title>TunedTV</title>
-  <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
 </head>
 <body>
     <center><h1>Exclusive Content</h1></center>

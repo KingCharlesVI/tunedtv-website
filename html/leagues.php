@@ -10,7 +10,6 @@
   <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/leagues.css">
     <title>TunedTV</title>
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
   </head>
 <style>
     h2 {text-align: center}

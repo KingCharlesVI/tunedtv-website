@@ -10,7 +10,6 @@
   <meta charset="UTF-8">
     <link rel="stylesheet" href="/css/lvf1.css">
     <title>TunedTV</title>
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link href="//vjs.zencdn.net/7.10.2/video-js.min.css" rel="stylesheet">
     <script src="//vjs.zencdn.net/7.10.2/video.min.js"></script>
   </head>
