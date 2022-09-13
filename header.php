@@ -10,7 +10,7 @@
   <div class="topnav">
     <img class="logo" src="/images/condensed-tunedtv.jpg">
     <a href="/index.php">Home</a>
-    <a href="/html/leagues.php">Leagues</a>
+    <a href="/html/construction.html">Leagues</a>
     <a href="/html/premium.php">Premium</a>
     <a href="/html/about.php">About</a>
     <a href="/exclusive/exclusive.php">Exclusive Content</a>

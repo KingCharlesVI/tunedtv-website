@@ -45,7 +45,7 @@
           </div>
           <div class="container left">
             <div class="content">
-              <h2>Update 0.5, November/December 2022</h2>
+              <h2>Update 0.5, Late 2022</h2>
               <p>Native streaming service begins<br>Continual improvements/bug fixes</p>
             </div>
           </div>
