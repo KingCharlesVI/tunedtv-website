@@ -24,13 +24,13 @@
 <br>
 <center><p>Livestream should start automatically. If it does not, please refresh the page.</p></center>
 <iframe
-    src="https://player.twitch.tv/?channel=ligavirtualf1&parent=tunedtv.co.uk&muted=true"
+    src="https://player.twitch.tv/?channel=tunedtv_official&parent=tunedtv.co.uk&muted=true"
     height="720"
     width="1280"
     allowfullscreen>
 </iframe>
 <div class="chat">
-  <iframe src="https://www.twitch.tv/embed/ligavirtualf1/chat?parent=tunedtv.co.uk"
+  <iframe src="https://www.twitch.tv/embed/tunedtv_official/chat?parent=tunedtv.co.uk"
           height="600"
           width="350">
   </iframe>
