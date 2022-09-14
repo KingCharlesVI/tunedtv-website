@@ -22,7 +22,7 @@
 <br>
 <h1><u>LigavirtualF1</u></h1>
 <br>
-<center><p>Livestream should start automatically. If it does not, please refresh the page.</p>
+<center><p>Livestream should start automatically. If it does not, please refresh the page.</p></center>
 <iframe
     src="https://player.twitch.tv/?channel=ligavirtualf1&parent=tunedtv.co.uk&muted=true"
     height="720"
@@ -35,7 +35,6 @@
           width="350">
   </iframe>
   </div>
-</center>
 <h2>Additional feeds:</h2>
 <h3>Coming Soon</h3>
 <br>
