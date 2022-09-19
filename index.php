@@ -62,6 +62,7 @@
       </div>
       </a>
     </div>
+  <div class="column">
   <a href="html/devblog.php">
     <div class="card">
       <h3>Devlog #2</h3>
