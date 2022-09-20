@@ -11,7 +11,7 @@
     <img class="logo" src="/images/condensed-tunedtv.jpg">
     <a href="/index.php">Home</a>
     <a href="/html/leagues.php">Leagues</a>
-    <a href="/static/construction.php">Premium</a>
+    <a href="/html/premium.php">Premium</a>
     <a href="/html/about.php">About</a>
     <a href="/exclusive/exclusive.php">Exclusive Content</a>
     <?php
@@ -20,7 +20,7 @@
         echo "<a href='/logout.php'>Logout</a>";
       }
       else {
-        echo "<a href='/register.php'>Sign Up</a>";
+        echo "<a href='https://buy.stripe.com/eVaaFXbtf4cR412aEE'>Sign Up</a>";
         echo "<a href='/login.php'>Login</a>";
       } ?>
   </div>

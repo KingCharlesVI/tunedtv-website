@@ -19,7 +19,7 @@
 <br>
 <h2>This is your personal dashboard page</h2>
 <br>
-<br>
+<p><a href="exclusive/exclusive.php">Click here to go to the Exclusive section</a></p>
 <br>
 <br>
 <br>
