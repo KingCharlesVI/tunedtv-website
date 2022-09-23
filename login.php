@@ -83,7 +83,7 @@ if(isset($_POST['submit']))
  
 				<button type="submit" name="submit" class="btn btn-primary">Login</button> 
 				
-				<a href="register.php" class="btn btn-primary">Register</a>
+				<a href="https://buy.stripe.com/eVaaFXbtf4cR412aEE" class="btn btn-primary">Register</a>
 			</form>
 		</div>
 	</div>
