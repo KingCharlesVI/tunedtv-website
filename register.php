@@ -40,6 +40,8 @@ if(isset($_POST['submit']))
                     $handle->execute($params);
                     
                     $success = 'User has been created successfully';
+
+                    header('index.php');
                     
                 }
                 catch(PDOException $e){
