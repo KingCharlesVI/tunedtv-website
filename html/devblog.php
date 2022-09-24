@@ -26,12 +26,24 @@
 <h2>Devlog</h2>
 <br>
 <div class="textarea">
-<center><h3>16/09/2022</h3></center>
-<p>-Version 0.4 released<br>-Includes Twitch stream integration<br>-Minor bug fixes and design updates</p>
-<center><h3>03/09/2022</h3></center>
-<p>-Version 0.25 released<br>-Includes a functional login system<br>-Minor bug fixes and design updates</p>
-<center><h3>26/07/2022</h3></center>
-<p>-Development begins on TunedTV<br>-Basic site structure laid out<br>-Design and basic funcionality development begins</p>
+<h3>16/09/2022</h3>
+<ul>
+  <li><b>Version 0.4 released</b></li>
+  <li>Includes Twitch stream integration</li>
+  <li>Minor bug fixes and design updates</li>
+</ul>
+<h3>03/09/2022</h3>
+<ul>
+  <li><b>Version 0.25 released</b></li>
+  <li>Includes a functional login system</li>
+  <li>Minor bug fixes and design updates</li>
+</ul>
+<h3>26/07/2022</h3>
+<ul>
+  <li><b>Development begins on TunedTV</b></li>
+  <li>Basic site structure laid out</li>
+  <li>Design and basic funcionality development begins</li>
+</ul>
 <br>
 <br>
 <br>

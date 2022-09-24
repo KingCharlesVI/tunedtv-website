@@ -32,7 +32,7 @@
     <a href="html/lvf1.php">
     <div class="card">
       <h3>LVF1 F1 2021</h3>
-      <p>Russian Grand Prix</p>
+      <p>USA Grand Prix</p>
     </div>
     </a>
   </div>
