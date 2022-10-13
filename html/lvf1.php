@@ -12,6 +12,7 @@
     <title>TunedTV</title>
     <link href="//vjs.zencdn.net/7.10.2/video-js.min.css" rel="stylesheet">
     <script src="//vjs.zencdn.net/7.10.2/video.min.js"></script>
+    <script src="https://unpkg.com/@mux/mux-player"></script>
   </head>
 <style>
   h1 {text-align: center}
@@ -22,19 +23,15 @@
 <br>
 <h1><u>LigavirtualF1</u></h1>
 <br>
-<center><p>Livestream should start automatically. If it does not, please refresh the page.</p></center>
-<iframe
-    src="https://player.twitch.tv/?channel=tunedtv_official&parent=tunedtv.co.uk&muted=true"
-    height="720"
-    width="1280"
-    allowfullscreen>
-</iframe>
-<div class="chat">
-  <iframe src="https://www.twitch.tv/embed/tunedtv_official/chat?parent=tunedtv.co.uk"
-          height="600"
-          width="350">
-  </iframe>
-  </div>
+<center><p>Livestream should start automatically. If it does not, please refresh the page.</p>
+<mux-player
+  stream-type="live"
+  playback-id="028DkakHYbToknxaxz7EOa9YD2402Wt5KhXk4Iod5zDzQ"
+  metadata-video-title="Placeholder (optional)"
+  metadata-viewer-user-id="Placeholder (optional)"
+  primary-color="#FFFFFF"
+  secondary-color="#000000">
+</mux-player></center>
 <h2>Additional feeds:</h2>
 <h3>Coming Soon</h3>
 <br>

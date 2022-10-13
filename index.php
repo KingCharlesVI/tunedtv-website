@@ -57,6 +57,13 @@
   <div class="column">
   <a href="html/devblog.php">
       <div class="card">
+        <h3>Devlog #4</h3>
+        <p>Version 0.5 released</p>
+      </div>
+      </a>
+    </div>
+  <a href="html/devblog.php">
+      <div class="card">
         <h3>Devlog #3</h3>
         <p>Version 0.4 released</p>
       </div>
@@ -85,7 +92,7 @@
 <br>
 <br>
 <footer>
-  <p><b>TunedTV</b><br><b>Developed by:</b> KingCharlesVI, Kosmik247, Kip<br><b>Version: </b>v0.4</p>
+  <p><b>TunedTV</b><br><b>Developed by:</b> KingCharlesVI, Kosmik247, Kip<br><b>Version: </b>v0.5</p>
   <a href="https://discord.gg/UpweTajymD" target="_blank"><img src="/images/discord.png" style="width:42px;height:42px"></a>
   <a href="https://github.com/KingCharlesVI/tunedtv-website" target="_blank"><img src="/images/github.png" style="width:42px;height:42px"></a>
   </footer>
