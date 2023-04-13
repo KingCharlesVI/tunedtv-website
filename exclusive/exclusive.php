@@ -1,11 +1,11 @@
 <?php
-  session_start();
+  //session_start();
   include_once '../header.php';
-  if(!isset($_SESSION['id'])) // The exact conditional depends on your login-system implementation
-  {
-    header('Location: /login.php?notloggedin'); // Instructs the visitor's browser to redirect
-    exit(); // <-- What you want. Prevents further code from being executed, works as a security measure.
-  }
+  //if(!isset($_SESSION['id']))
+  //{
+    //header('Location: /login.php?notloggedin');
+    //exit();
+  //}
 ?>
 <!DOCTYPE html>
 <html>

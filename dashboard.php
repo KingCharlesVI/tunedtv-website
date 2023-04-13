@@ -2,9 +2,9 @@
     session_start();
     include_once 'header.php';
   
-    if(!$_SESSION['id']){
-        header('location:login.php');
-    }
+    //if(!$_SESSION['id']){
+        //header('location:login.php');
+    //}
 ?>
 <!DOCTYPE html>
 <html>
