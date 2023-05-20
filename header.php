@@ -14,15 +14,6 @@
     <a href="/html/premium.php">Premium</a>
     <a href="/html/about.php">About</a>
     <a href="/exclusive/exclusive.php">Exclusive Content</a>
-    <?php
-      //if (isset($_SESSION)) {
-        //echo "<a href='/dashboard.php'>Profile</a>";
-        //echo "<a href='/logout.php'>Logout</a>";
-      //}
-      //else {
-        //echo "<a href='https://buy.stripe.com/eVaaFXbtf4cR412aEE'>Sign Up</a>";
-        //echo "<a href='/login.php'>Login</a>";
-      //} ?>
   </div>
 </body>
 </html>

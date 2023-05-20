@@ -11,6 +11,10 @@
   float: left;
 }
 
+body {
+  background-image: url(/images/cfs_gt3_bg.jpg);
+}
+
   /* Add a black background color to the top navigation */
   .topnav {
     font-size: 17px;  
@@ -43,6 +47,12 @@
     mux-player {
         width: 100%;
         max-width: 1200px;
+        margin: 40px auto;
+      } 
+
+      .player {
+        width: 1920px;
+        height: 1920px;
         margin: 40px auto;
       } 
 
